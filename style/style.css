@@ -1,0 +1,23 @@
+body {
+  background-image: url("https://wallpaperaccess.com/full/1320758.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.buttons {
+  padding-top: 1%;
+}
+
+.btns {
+  text-decoration: none;
+  color: black;
+  background-color: pink;
+  border-radius: 50px;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: lightblue;
+  transition: .9s;
+}

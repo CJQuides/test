@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heads Or Tails</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body id="body">
+    <div class="bodyGame">
+        <div class="btns">
+            <button onclick="save(1)" class="headBtn">Head</button>
+            <button onclick="save(0)" class="tailBtn">Tail</button>
+            <button onclick="reset()" class="resetBtn">Reset Score</button>
+            <a href="../../" class="nextBtn">Home</a>
+        </div>
+        <br><br>
+        <div class="results" id="results">
+            <h2 id="result">You are: </h2>
+            <p id="corrects">&nbsp</p>
+            <p id="wrongs">&nbsp</p>
+        </div>
+        <p id="value" style="visibility: hidden;">0</p>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
